@@ -1,68 +1,76 @@
 <html lang="es">
-  <head>
-    <title>Trabajo Práctico - Parcial</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    
-    <div class="landing-page">
-      <div class="container">
-        <div class="header-area">
-          <div class="logo">Dulcemía</div>
-          <ul class="links">
-           <li>Nosotros</li>
-            <li>Recetas</li>
-            
-          </ul>
-        </div>
-        <div class="info">
-           <h3>Aprende los secretos de los mejores postres</h3>
-          <h1>Curso de Repostería online</h1>
-         
-          <p>
-            Todos los Lunes y Miércoles de Julio.
-          </p>
-          <p2>
-            4PM - 7PM
-          </p2>
-          
-        </div>
-        <div class="image">
-          <img
-        src=https://i.pinimg.com/200x150/93/b5/f9/93b5f9913d2e4316cd6e541c67b9aed0.jpg width="500px";
-            />
-          <table>
-				<tr>
-          <th>Nombre y Apellido</th>      
-          </tr>
-        
+
+<head>
+  <title>Trabajo Práctico - Parcial</title>
+  <!-- estos rel no son correctos aquí -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="landing-page">
+    <div class="container">
+      <div class="header-area">
+        <div class="logo">Dulcemía</div>
+        <ul class="links">
+          <li>Nosotros</li>
+          <li>Recetas</li>
+
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Aprende los secretos de los mejores postres</h3>
+        <h1>Curso de Repostería online</h1>
+
+        <p>
+          Todos los Lunes y Miércoles de Julio.
+        </p>
+        <!-- <p2> no es una etiqueta standard -->
+        <p2>
+          4PM - 7PM
+        </p2>
+
+      </div>
+      <div class="image">
+        <!-- Al final de esta imagen hay un ":" que no es correcto -->
+        <img src=https://i.pinimg.com/200x150/93/b5/f9/93b5f9913d2e4316cd6e541c67b9aed0.jpg width="500px" ; />
+
+        <!-- esto debería ser un formulario, no una tabla -->
+        <table>
           <tr>
-					<th>Correo electrónico</th>
+            <th>Nombre y Apellido</th>
           </tr>
-          </table>
-          <div class="boton">
+
+          <tr>
+            <th>Correo electrónico</th>
+          </tr>
+        </table>
+        <div class="boton">
           <a href="#">Registrarse</a>
-          </div>
-          <div class="lista">
-           <p>
+        </div>
+        <div class="lista">
+          <!-- esta etiqueta debería ser un título (h2, h3, etc) en vez de un <p> -->
+          <p>
             ¿Qué aprenderás?
           </p>
-         <ul>
-				 <li> Glaseados y cubiertas</li>
-				 <li>Bombones y manejo del chocolate</li>
-				 <li> Armado de tortas y tarteletas</li>
-			 </ul>
-         
+          <ul>
+            <li> Glaseados y cubiertas</li>
+            <li>Bombones y manejo del chocolate</li>
+            <li> Armado de tortas y tarteletas</li>
+          </ul>
+
         </div>
+        <!-- Este clearfix no hace nada aquí -->
         <div class="clearfix"></div>
       </div>
     </div>
-  </body>
+</body>
+
 </html>

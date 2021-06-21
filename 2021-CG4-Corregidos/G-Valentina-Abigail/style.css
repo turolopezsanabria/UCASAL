@@ -1,156 +1,172 @@
+/* Estos primeros corchetes con box-sizing no hacen nada, y están rompiendo el CSS */
+
 {
-    box-sizing: border-box;
-  }
-  
-  body {
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
-  }
-  
-  .container {
-    width: 1150px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: auto;
-  }
-  
-  /* Start Landing Page */
-  
-  
-  
-  .landing-page .header-area .logo {
-    
-   color:#6F6F6F;
-        background-color: #FFFFFF;
-        background-image: url(https://media.istockphoto.com/vectors/vector-blue-monochrome-cakes-and-pastry-seamless-background-repeat-vector-id1194538296?b=1&k=6&m=1194538296&s=170667a&w=0&h=JOqnzSLnN0_S7AexPeBzJAVhHLFVQIfaCAz3cYq4FoU=);
-        height: 50px;
-        width: 1132px;
-              padding-left: 10px;
-              padding-top: 20px;
-        font-family: 'Courgette', cursive;
-        font-size: 20px;
-        justify-content: left;
-    
-  }
-  
-  .landing-page .header-area .links {
-   font-family: 'Montserrat', sans-serif;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    text-align: right;
-    
-  }
-  
-  .landing-page .header-area .links li {
-    display: inline-block;
-    margin-left: 50px;
-    color: #6F6F6F;
-    cursor: pointer;
-   
-  
-  }
-  
-  .landing-page .header-area .links li:last-child {
-    border: 0;
-    border-radius: 25px;
-    padding: 10px 18px;
-  
-    
-  }
-  
-  .landing-page .info {
-    font-family: 'Montserrat', sans-serif;
-    width: 50%;
-    float: left;
-    margin-top: 105px;
-  }
-  
-  .landing-page .info h1 {
-   font-family: 'Amatic SC', cursive;
-    font-size: 44px;
-    margin: 0 0 20px;
-    line-height: 1.4;
-    color: #1990A0;
-  }
-  .landing-page .info h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin: 0 0 20px;
-    line-height: 1.4;
-    color: #6F6F6F;
-    }
-  .landing-page .info p {
+}
+
+.container {
+  width: 1150px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+}
+
+/* Start Landing Page */
+
+
+
+.landing-page .header-area .logo {
+
+  color: #6F6F6F;
+  background-color: #FFFFFF;
+  background-image: url(https://media.istockphoto.com/vectors/vector-blue-monochrome-cakes-and-pastry-seamless-background-repeat-vector-id1194538296?b=1&k=6&m=1194538296&s=170667a&w=0&h=JOqnzSLnN0_S7AexPeBzJAVhHLFVQIfaCAz3cYq4FoU=);
+  height: 50px;
+  width: 1132px;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+  justify-content: left;
+
+}
+
+.landing-page .header-area .links {
   font-family: 'Montserrat', sans-serif;
-    margin: 20;
-    line-height: 1.6;
-    font-size: 15px;
-    color: #6F6F6F;
-  }
-  .landing-page .info p2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+
+}
+
+.landing-page .header-area .links li {
+  display: inline-block;
+  margin-left: 50px;
+  color: #6F6F6F;
+  cursor: pointer;
+
+
+}
+
+.landing-page .header-area .links li:last-child {
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 18px;
+
+
+}
+
+.landing-page .info {
   font-family: 'Montserrat', sans-serif;
-    margin: 20;
-    line-height: 1.6;
-    font-size: 15px;
-    color: #1990A0;
-  }
+  width: 50%;
+  float: left;
+  margin-top: 105px;
+}
+
+.landing-page .info h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 44px;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  color: #1990A0;
+}
+
+.landing-page .info h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  color: #6F6F6F;
+}
+
+.landing-page .info p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #6F6F6F;
+}
+
+.landing-page .info p2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #1990A0;
+}
+
+/* aquí falta un ";" después del font-size; 10px; */
+table {
+  color: #6F6F6F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px height: 100px;
+  padding-left: 0px;
+  padding-top: 0px;
+  justify-content: left;
+
+
+}
+
+table {
+  border-color: #FFFFFF;
+
+}
+
+/* parte de este código no hace nada, no hay ningún TD en el html por ejemplo */
+th,
+td,
+tr {
+  border: solid 2px;
+  border-color: #DADADA;
+  width: 250px;
+  border-radius: 25px;
+  background-color: #DADADA;
+
+
+
+}
+
+.lista {
+  color: #6F6F6F;
+  padding-left: 0px;
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+
+  padding-left: 0 px;
+  padding-top: 50px;
+  justify-content: left;
+  align-items: left;
+  position: absolute;
+}
+
+.boton a {
+  text-decoration: none;
+  display: block;
+  border: 0px;
+  width: 255px;
+  height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 0px;
+  padding-top: 5px;
+  margin: 3px;
+  margin-top: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  justify-content: left;
+  background-color: #1990A0;
+  border-radius: 25px;
+  /* después de transition faltan los dos puntos */
+  transition 2s;
+}
+
+/* esta clase no cierra, falta el corchete final */
+.boton a:hover {
+  background-color: #90C1D3;
+  color: #2A6A89;
   
-   table { 
-        color:#6F6F6F;
-       font-family: 'Montserrat', sans-serif;
-        font-size: 10px
-        height: 100px;
-        padding-left: 0px;
-              padding-top: 0px;
-        justify-content: left;
-     
-    
-         }
-      table {
-              border-color: #FFFFFF;
-      
-          }
-  th, td, tr {
-    border: solid 2px; 
-        border-color: #DADADA;
-        width:250px;
-        border-radius: 25px;
-        background-color: #DADADA;
-    
-       
-    
-      }
-  .lista { 
-        color:#6F6F6F;
-              padding-left: 0px;
-              padding-top: 30px;
-     font-family: 'Montserrat', sans-serif;
-        
-        padding-left:0 px;
-              padding-top: 50px;
-        justify-content: left;
-        align-items:left;
-        position: absolute;
-       }
-  .boton  a{
-        text-decoration: none;
-        display: block;
-        border:0px ;
-        width: 255px;
-        height: 22px;
-        text-align:center;
-        color: #FFFFFF;
-        padding-left: 0px;
-        padding-top: 5px;
-        margin:3px;
-        margin-top:7px;
-       font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
-        justify-content: left;
-        background-color:#1990A0;
-        border-radius: 25px;    
-        transition 2s;
-      }
-      .boton  a:hover{
-        background-color:#90C1D3;
-        color:#2A6A89;

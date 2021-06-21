@@ -1,89 +1,97 @@
-<link rel="stylesheet" href="style.css" />
- 
+<!DOCTYPE html>
+<!--No habían incluido el encabezado del HTML, ni el área HEAD, lo he hecho poder corregir el parcial-->
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!--Solo puede haber un body en el html, está duplicado en la línea 58-->
 
 <body>
+
+  <!-- No es necesario ponerle un ID si ya tiene una clase (a menos que quieran hacer referencia a ella después)-->
   <nav class="Barra" id="nav-bar">
- 
+
+    <!-- La etiqueta UL es una lista (Unorder-List)
+    Debe contener elementos de Lista (li), y no lo que contiene ahora, 
+    párrafos e imágenes
+    -->
     <ul class="menu">
       <p>
+        <!-- esta declaración está mal, el "source" no puede ser "#", y tampoco tiene sentido este display none -->
         <img src="#" alt="logo" style="display: none" id="header-img" />
-        <img
-          src="https://www.agenciasdecomunicacion.org/wp-content/uploads/Domestika-logo1.png"
-          width="200px"
-        />
-           
-        <li><a class="centro"
-               href="/Contacto"> Contacto </a></li>
+        <img src="https://www.agenciasdecomunicacion.org/wp-content/uploads/Domestika-logo1.png" width="200px" />
+
+        <li><a class="centro" href="/Contacto"> Contacto </a></li>
       </p>
     </ul>
   </nav>
-  
-  
-      <div class="grilla">
+
+
+  <div class="grilla">
     <div class="arte">
       <h3> Arte digital</h3>
-        <section class="titulo" id="titulo">
+
+        <!-- No es necesario ponerle un ID si ya tiene una clase (a menos que quieran hacer referencia a ella después)-->
+      <section class="titulo" id="titulo">
         <h2>LA COMUNIDAD DE<br>LA CLASE CREATIVA</h2>
         <p>Aprende con los mejores profesionales y forma
           parte de la mayor comunidad para creativos.</p>
-      <br />
+        <br />
 
-      <button class="boton">
-        Iniciar sesión
-      </button>
-          
-          </section>
+        <button class="boton">
+          Iniciar sesión
+        </button>
+
+      </section>
     </div>
-      
+
+    <!-- no es necesario envolver esta imágen en un div -->
     <div>
-      <img
-       alt src="https://i.ibb.co/K5WjR6Y/img30.jpg"
-       
-        height="400px"
-        width="600px"
-      />
+      <img alt src="https://i.ibb.co/K5WjR6Y/img30.jpg" height="400px" width="600px" />
     </div>
   </div>
 
-  
-<!--Planes-->
+  <!--Planes-->
 
-<body>
+  <!--Solo puede haber un body en el html, está duplicado en la línea 10-->
+  <body>
 
-<div class="cuadros">
-  <div class="card shadow">
-    <ul>
-      <li class="pack">Basico</li>
-      <li id="basic" class="price bottom-bar">$4500</li>
-      <li class="bottom-bar">Curso de arte digital</li>
-      <li class="bottom-bar">15 Clases</li>
-      <li class="bottom-bar">Clases personalizadas</li>
-      <li><button class="btn">Comprar</button></li>
+    <div class="cuadros">
+      <div class="card shadow">
+        <ul>
+          <li class="pack">Basico</li>
 
-    </ul>
-  </div>
-  <div class="card shadow">
-    <ul>
-      <li class="pack">Master</li>
-      <li id="master" class="price bottom-bar">$6500</li>
-      <li class="bottom-bar">Curso de arte digital</li>
-      <li class="bottom-bar">25 Clases</li>
-      <li class="bottom-bar">Clases personalizadas</li>
-      <li><button class="btn">Comprar</button></li>
-    </ul>
-  </div>
-</div>
-<script src="script.js"></script>
+            <!-- No es necesario ponerle un ID si ya tiene una clase (a menos que quieran hacer referencia a ella después)-->
+          <li id="basic" class="price bottom-bar">$4500</li>
+          <li class="bottom-bar">Curso de arte digital</li>
+          <li class="bottom-bar">15 Clases</li>
+          <li class="bottom-bar">Clases personalizadas</li>
+          <!-- este botón no necesita ser una lista <li> -->
+          <li><button class="btn">Comprar</button></li>
 
-<div class="redes">  
-<img
-    alt  src="https://i.ibb.co/1zxVR5g/instagram.png"
-      width="25px"
-    />
-  <img
-     alt src="https://image.flaticon.com/icons/png/512/81/81341.png"
-      width="25px"
-    />
- </div>
-</body>
+        </ul>
+      </div>
+      <div class="card shadow">
+        <ul>
+          <li class="pack">Master</li>
+          <li id="master" class="price bottom-bar">$6500</li>
+          <li class="bottom-bar">Curso de arte digital</li>
+          <li class="bottom-bar">25 Clases</li>
+          <li class="bottom-bar">Clases personalizadas</li>
+           <!-- este botón no necesita ser una lista <li> -->
+          <li><button class="btn">Comprar</button></li>
+        </ul>
+      </div>
+    </div>
 
+    <!-- esta llamada a un script no hace nada -->
+    <script src="script.js"></script>
+
+    <div class="redes">
+      <img alt src="https://i.ibb.co/1zxVR5g/instagram.png" width="25px" />
+      <img alt src="https://image.flaticon.com/icons/png/512/81/81341.png" width="25px" />
+    </div>
+  </body>
+
+  </html>

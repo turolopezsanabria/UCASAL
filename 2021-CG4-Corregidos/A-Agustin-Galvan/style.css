@@ -1,52 +1,75 @@
-h1 {color: white;}
-h3 {color: white;
-padding: 15px 32px;
- position: relative;
+/* Este código no hace nada el html no hay ningún H1 */
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+  padding: 15px 32px;
+  position: relative;
   left: 120px;
 }
-h4 {color: white;}
-b {color: black;}
+
+/* Este código no hace nada el html no hay ningún H4 */
+
+h4 {
+  color: white;
+}
+
+b {
+  color: black;
+}
+
 button {
   background-color: rgb(232, 74, 97);
   border: none;
-  color: rgb(  255,  255, 255 );
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
-   text-align: center;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 50px;
-   position: relative;
-  left: 120px
-  
+  position: relative;
+  left: 120px /* Aquí falta un punto y coma */
 }
-.encabezado{  
-  position:absolute;
-  top:0;
-  left:0;
-  }
-.encabezado2{
-  display:block;
+
+.encabezado {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.encabezado2 {
+  display: block;
   width: 64px;
   height: 64px;
-  background:;
-  position:absolute;
-  top:0;
-  right:0;
-  left:200;
- } 
-  .imagenabajo{
-    display:block;
-     position:absolute;
-    
-    }
-.marca{
+  background: ;  /* Aquí falta un valor */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 200;
+    /* Estos dos left y right son incompatibles, solo left está funcionando */
+}
+
+  /* Este código no hace nada porque no estñá bien llamado en el HTML */
+.imagenabajo {
+  display: block;
+  position: absolute;
+
+}
+
+/* aquí falta un corchete de cierre */
+.marca {
   position: relative;
   left: 100px;
-  
 
-.body{
-   text-align: center;
-			height: 125px;
-   border-radius: 700px;
-		}
+
+
+  /* Este código no hace nada el html no hay ninguna clase que se llame "body" */
+
+.body {
+    text-align: center;
+    height: 125px;
+    border-radius: 700px;
+  }

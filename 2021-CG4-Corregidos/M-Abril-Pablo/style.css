@@ -1,80 +1,88 @@
-.paquete-normal{
-    background:#0;
-    position: absolute;
-            left: -32%;
-        top: 48%;
-        width: 100%;
-    display:block;
-    color: #ffff;
-    Text-align: center;
-  }
-  .paquete-intensivo{
-    background:#0;
-        position: absolute;
-            left: -13%;
-        top: 48%;
-        width: 100%;
-    display:block;
-    color: #ffff;
-    Text-align: center;
-    
-  }
-  
-  .Encabezado h1{
-            font-family: 'Quicksand', sans-serif;
-        font-size: 35px;
-        font-weight: bold;
-        position: absolute;
-            left: 10%;
-            right: 15%;
-        top: 15%; 
-        color: #ffff;
-        display:block;
-          }
-  
-  
-  .Subtitulo h2{
-        font-family: 'Quicksand', sans-serif;
-        font-size: 22px;
-        font-weight: light;
-        color: #ffff;
-              position: absolute;
-            left: 10%;
-            right: 50%;
-        top: 35%;
-        width: 100%;
-            display:block;
-  }
-  .Subtitulo h3{
-        font-family: 'Quicksand', sans-serif;
-        font-size: 22px;
-        font-weight: light;
-        color: #ffff;
-              position: absolute;
-            left: -15%;
-            right: 68%;
-        top: %;
-        width: 111%;
-            display:block;
-  }
-  
-  .banner {
-    background-size: cover;
-    background-position: center;
-    padding: 300px 0;
-  }
-  
-  /* style for custom buttons */
-  .btn {
-    color: white !important;
-    padding: 10px 24px;
-    border-radius: 4px;
-    background: #E8BA53 !important;
-    transition: background 0.3s ease;
-  }
-  
-  .btn:hover {
-    background: #FFAA00 !important;
-    color: white !important;
-  }
-  
+/* el background color está mal, #0 es un valor invalido */
+
+.paquete-normal {
+  background: #0;
+  position: absolute;
+  left: -32%;
+  top: 48%;
+  width: 100%;
+  display: block;
+  color: #ffff;
+  Text-align: center;
+}
+
+/* el background color está mal, #0 es un valor invalido */
+.paquete-intensivo {
+  background: #0;
+  position: absolute;
+  left: -13%;
+  top: 48%;
+  width: 100%;
+  display: block;
+  color: #ffff;
+  Text-align: center;
+
+}
+
+.Encabezado h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  left: 10%;
+  right: 15%;
+  top: 15%;
+  color: #ffff;
+  display: block;
+}
+
+
+.Subtitulo h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  font-weight: light;
+  color: #ffff;
+  position: absolute;
+  left: 10%;
+  right: 50%;
+  top: 35%;
+  width: 100%;
+  display: block;
+}
+
+/* top % es una declaración invalida */
+
+.Subtitulo h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  font-weight: light;
+  color: #ffff;
+  position: absolute;
+  left: -15%;
+  right: 68%;
+  top: %;
+  width: 111%;
+  display: block;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+}
+
+/* Poner !important en estos casos no es necesario, ademas de ser una mala práctica en general */
+
+/* style for custom buttons */
+.btn {
+  color: white !important;
+  padding: 10px 24px;
+  border-radius: 4px;
+  background: #E8BA53 !important;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #FFAA00 !important;
+  color: white !important;
+}

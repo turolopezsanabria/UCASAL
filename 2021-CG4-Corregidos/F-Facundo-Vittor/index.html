@@ -1,3 +1,5 @@
+<!-- Mo sé qué hace todo este código comentado desde aquí  hasta la línea 17-->
+
 <!-- <!DOCTYPE html>
 <html lang="ES">
 <head>
@@ -11,83 +13,95 @@
 
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>Parcial</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  
-  <head>
-    <style>
-      body {
-        background-image: url("https://cdn.glitch.com/b3cddb48-8baa-4f81-bc09-5558a5661b87%2Ff3%20(13).png?v=1623974917561");
-        background-repeat: no-repeat;
-        background-size: 1920px 1080px;
-      }
-    </style>
-  </head>
-  
-  <body>
-    <div class="grid-navbar">
 
-      <nav class="menu">
-        <ul>
-          <li>
-            <a href="#">Videografías</a>
-          </li>
-          <li>
-            <a href="/usuarios">Fotografías</a>
-          </li>
-          <li>
-            <a href="/usuarios">Eventos</a>
-          </li>
-          <li>
-            <a class="cta" href="/eventos">Funciones</a>
-          </li>
-        </ul>
-      </nav>
+<!-- el head está duplicado, no debería cerrarse y abrirse de nuevo el la línea 23 -->
+<head>
+  <title>Parcial</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<head>
+  <style>
+    body {
+      background-image: url("https://cdn.glitch.com/b3cddb48-8baa-4f81-bc09-5558a5661b87%2Ff3%20(13).png?v=1623974917561");
+      background-repeat: no-repeat;
+      background-size: 1920px 1080px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-navbar">
+
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#">Videografías</a>
+        </li>
+        <li>
+          <a href="/usuarios">Fotografías</a>
+        </li>
+        <li>
+          <a href="/usuarios">Eventos</a>
+        </li>
+        <li>
+          <a class="cta" href="/eventos">Funciones</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="grid">
+    <div class="mt-description">
+
+      <p class="pre">
+        Everything in Peeping Tom's work starts from a hyperrealist setting. The space feels familiar, such as a garden,
+        a living room and a basement in the first trilogy (Le Jardin, 2002; Le Salon, 2004; Le Sous Sol, 2007), two
+        trailer homes in a snow-covered landscape in 32 rue Vandenbranden (2009) or a retirement home in Vader (2014).
+
+        The creators then break open this realism. They create an unstable universe that defies the logic of time, space
+        and mood. You become the witness - or rather, the voyeur? - of what usually remains hidden and unsaid. Isolation
+        leads to an unconscious world of nightmares, fears and desires, which the creators deftly use to shed light on
+        the dark side of a character or a community. The huis clos of family situations remains for Peeping Tom a major
+        source of creativity. Presented using a rich imagery, a fascinating battle arises against one's environment and
+        against oneself.
+      </p>
+
+
     </div>
-    
-    <div class="grid">
-      <div class="mt-description">
-          
-        <p class="pre">
-Everything in Peeping Tom's work starts from a hyperrealist setting. The space feels familiar, such as a garden, a living room and a basement in the first trilogy (Le Jardin, 2002; Le Salon, 2004; Le Sous Sol, 2007), two trailer homes in a snow-covered landscape in 32 rue Vandenbranden (2009) or a retirement home in Vader (2014).
 
-The creators then break open this realism. They create an unstable universe that defies the logic of time, space and mood. You become the witness - or rather, the voyeur? - of what usually remains hidden and unsaid. Isolation leads to an unconscious world of nightmares, fears and desires, which the creators deftly use to shed light on the dark side of a character or a community. The huis clos of family situations remains for Peeping Tom a major source of creativity. Presented using a rich imagery, a fascinating battle arises against one's environment and against oneself.
-                    </p>
-      
+  </div>
 
-      </div>
-      
+  <div class="grid">
+    <div class="mt-description">
+      <!-- Esto es un título, debería ser un H1 -->
+      <p class="title-landing">
+        COINCIDIR
+      </p>
+      <!-- este salto de línea no es correcto, se debería estilar el p con CSS  -->
+      <br />
+      <p class="center-landing description-landing">
+        Adquirí el contenido de preventa mediante la suscripción mensual
+      </p>
+      <!-- este salto de línea no es correcto, se debería estilar el p con CSS  -->
+      <br />
+      <button class="button-landing">
+        SUSCRIBIRSE
+      </button>
     </div>
 
-    <div class="grid">
-      <div class="mt-description">
-        <p class="title-landing">
-          COINCIDIR
-        </p>
-        <br />
-        <p class="center-landing description-landing">
-          Adquirí el contenido de preventa mediante la suscripción mensual
-        </p>
-        <br />
-        <button class="button-landing">
-          SUSCRIBIRSE
-        </button>
-      </div>
-      
-    </div>
-  </body>
-  
-  <bot>
-          <img
-            class="logo1"
-            src="https://cdn.glitch.com/b3cddb48-8baa-4f81-bc09-5558a5661b87%2Flogo-hkb-40-invert.png?v=1623982189167"
-          />
-          
-            <img
-            class="logo2"
-            src="https://cdn.glitch.com/b3cddb48-8baa-4f81-bc09-5558a5661b87%2Fhorizontal%20largo%20blanco%402x.png?v=1623972922154"
-          />
-  </bot>
+  </div>
+
+<!-- Todo el contenido debe estar hasta aquí, dentro del body   -->
+</body>
+
+<!-- Este código no hace nada, al estar fuera del body las imagenes no se ven  -->
+<bot>
+  <img class="logo1"
+    src="https://cdn.glitch.com/b3cddb48-8baa-4f81-bc09-5558a5661b87%2Flogo-hkb-40-invert.png?v=1623982189167" />
+
+  <img class="logo2"
+    src="https://cdn.glitch.com/b3cddb48-8baa-4f81-bc09-5558a5661b87%2Fhorizontal%20largo%20blanco%402x.png?v=1623972922154" />
+</bot>
+
 </html>
