@@ -1,0 +1,97 @@
+body {
+  min-height:100vh;
+  background-image: url(https://efa-centro.org/wp-content/uploads/2021/04/reposteria-creativa-950x633-1.jpg);
+  backgound-repeat:no-repeat;
+  background-size:1000px;
+  background-position:center; 
+}
+
+body {
+	
+   }
+    .logo { 
+    color:#FFFFFF;
+    font-family:mistral normal;
+    font-size:9px;
+   }
+		.encabezado {
+			color:#161D51;
+      background-color: #FFFFFF99;
+      height: 500px;
+      width: 300px;
+			padding-left: 40px;
+			padding-top: 20px;
+      font-family:montserrat regular;
+      font-size: 12px;
+      justify-content: left;
+    }
+    .subtitulo {
+      color:#C81F36;
+      padding-left: 0px;
+      padding-top: 0px;
+      font-famiy:montserrat medium;
+      font-size: 10px;
+      justify-content: left;
+    }
+    .bajada {
+      color:#161D51;
+      padding-left: 0px;
+      padding-top: 0px;
+      font-famiy:montserrat regular;
+      font-size: 9px;
+      justify-content: left;
+    }
+    .boton  a{
+      text-decoration: none;
+      display: block;
+      border:0px ;
+      width: 255px;
+      height: 19px;
+      text-align:center;
+      color: #FFFFFF;
+      padding-left: 0px;
+      padding-top: 3px;
+      margin:3px;
+      margin-top:5px;
+      font-family: montserrat regular;
+      font-size: 13px;
+      justify-content: left;
+      background-color:#161D51;
+      
+      transition 2s;
+    }
+    .boton  a:hover{
+      background-color:#4E59A6;
+      color:#161D51;
+    }
+    .table { 
+      color:#161D5199;
+      font-family: montserrat light;
+      font-size: 10px
+      height: 100px;
+      padding-left: 0px;
+			padding-top: 30px;
+      justify-content: left;
+    }
+	table {
+			border-color: #FFFFFF;
+		}
+		th, td, tr {
+			border: solid 2px; 
+      border-color: #333966;
+      width:250px;
+    }  
+    
+    .lista { 
+      color:#161D51;
+			padding-left: 0px;
+			padding-top: 30px;
+      font-family: montserrat regular;
+      font-size: 1px
+      padding-left: 20px;
+			padding-top: 50px;
+      justify-content: left;
+      align-items:left;
+      position: absolute;
+     }
+      

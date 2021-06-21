@@ -1,0 +1,232 @@
+ {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /*outline: solid 1px red;*/
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", serif;
+  font-size: 20px;
+  overflow-x: hidden;
+  min-width: 32px;
+  width: 95%;
+  max-width: px;
+  margin: 0 auto;
+
+  align-items: center;
+ 
+}
+.redes{
+  margin-top: 60px;
+}
+a {
+  text-decoration: none;
+}
+
+#hidden-nav,
+#hidlabel {
+  display: none;
+}
+/*Barra*/
+.Barra {
+  background-color: #F32A00;
+  position: sticky;
+  top: 0px;
+  width: 107%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  list-style-type: none;  
+}
+
+
+
+.menu > li {
+  width: 15vw;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 400;
+  line-height: 0px;
+
+}
+
+.menu p {
+  color: goldenrod;
+  position: absolute;
+  left: 7vw;
+}
+
+.centro{
+  background: #ef391b;
+  color:white;
+  /*padding: 20px;
+  font-size: 15px;*/
+  
+}
+
+
+/*Aterrizaje*/
+
+.grilla{
+    display: grid;
+    grid-template-columns: 50% 50%;
+     margin-top: 25px;
+}
+.titulo{
+    font-size: 30px;         
+    display: flex;
+  flex-flow: row wrap;  
+  color: #4f4f4f;
+}  
+.titulo p {  
+  margin-top: 60px;
+  font-size: 20px;
+}
+.titulo h2{
+  margin-top: 15px;
+}
+.arte{ 
+  padding: 70px;
+  margin-top: 0px;
+}
+
+.arte h3{
+  color: #f32a00;
+}
+.description-landing{
+    font-size: 16px;
+  
+}
+/* Boton iniciar sesion*/
+  .boton {
+    display: inline-block;
+    color: white;
+    height: 45px;
+    text-align: center;
+    padding: 0 16px;
+    font-size: 16px;
+   background: #4f4f4f;
+   margin-top: 60px;
+    border-radius: 9px;
+  }
+
+  
+  .mt-description{
+      margin-top: 1px;
+  }
+
+
+
+/*Planes*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size:13px;
+}
+
+
+.cuadros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: #f4f2f2;
+ 
+ border-radius:16px;
+
+}
+
+.cards .card.active {
+  background: linear-gradient(
+    135deg,
+    rgba(163, 168, 240, 1) 0%,
+    rgba(105, 111, 221, 1) 100%);
+ 
+}
+ul {
+  margin: 0.9rem; /*Cuando aumento aquí el margen de los cuadros también lo incrementa en la barra superior*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+ul li.price {
+  font-size: 3rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 2rem;
+}
+.shadow {
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card.active .price {
+  color: #fff;
+}
+
+.btn {
+  margin-top: 1rem;
+  height: 2.6rem;
+  width: 13.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  background: linear-gradient(
+    135deg,
+    rgba(241, 75, 14, 1) 0%,
+    rgba(255, 21, 0, 45) 100%
+  );
+  color: #fff;
+  outline: none;
+  border: 0;
+
+}
+.active-btn {
+  background: #fff;
+  color: hsl(237, 63%, 64%);
+}
+.bottom-bar {
+  border-bottom: 2px solid hsla(240, 8%, 85%, 0.582);
+}
+
+.pack {
+  font-size: 1.8rem;
+  color: #f32a00;
+  font-weight: bold;
+}
+
+@media (max-width: 280px) {
+  ul {
+    margin: 1rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+}

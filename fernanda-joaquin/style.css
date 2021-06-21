@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.contenedor {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+}
+.encabezado {
+  background-color: #000;
+  color: #fff;
+  height: 80px;
+  padding-left: 200px;
+  padding-top: 10px;
+}
+table {
+  border-color: #000;
+}
+th,
+td,
+tr {
+  border: solid 1px;
+}
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+.carousel img {
+  width: 320px;
+  height: auto;
+}
+menu {
+  display: flex;
+}
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.header {
+  <!--outline: solid 4px red;
+  -->position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.descripcion {
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 40px;
+  font-family: "Nixie One", cursive;
+}
+.descripcion-larga {
+  Camiseta Oficial {
+    font-family: "Merriweather", serif;
+    font-size: 16pt;
+  }
+  font-size: 12pt;
+  color: #aa3322;
+  padding-top: 10px;
+  font-family: "Merriweather", serif;
+  font-size: 12pt;
+  color: #aa3322;
+}
+.info-vendedor {
+  font-family: "Merriweather", serif;
+  font-size: 10pt;
+  padding-top: 10px;
+  padding-left: 50px;
+  background-color: #ECEEF0;
+}
+.productos-relacionados img {
+  width: 150px;
+  height: auto;
+}
+.productos-relacionados {
+  padding-top: 10px;
+  font-family: "Nixie One", cursive;
+  font-size: 15pt;
+  color: #000000;
+  padding-top: 20px;
+  text-align: center;
+}
+.redes-sociales {
+}
+
+.foto {
+  display: block;
+  max-width: 480px;
+}
+.miniaturas,
+.content {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.miniaturas img {
+  width: 33%;
+}
+
+.columna-1 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 50%;
+}
+.columna-2 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 50%;
+}
+.logo {
+  display: flex;
+  flex-grow: 20;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.Camiseta Oficial {
+  font-family: "Nixie One", cursive;
+  font-size: 25pt;
+}
+.imagenn img {
+  padding-top: 45px;
+  width: 400px;
+  height: auto;
+}
+/* Este código de quí abajo está estilando la capa que contiene a la imagen,
+si querés estilar la img, que la imágen tenga esas medidas, 
+tenés que poner lo siguiente
+
+.imagenn img {
+
+*/
+
+/* Esta es la clase de ejemplo */
+
+.nombre-de-ejemplo {
+  padding-top: 12px;
+  font-family: "Nixie One", cursive;
+  font-size: 16pt;
+  color: #000000;
+}
+.nombre-de-ejemplo2 {
+  font-family: "Nixie One", cursive;
+  font-size: 25pt;
+  color: #000000;
+}
+.nombre-de-ejemplo3 {
+  padding-top: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 11pt;
+  color: #000000;
+}
+.nombre-de-ejemplo4 {
+  padding-top: 15px;
+  font-family: "Nixie One", cursive;
+  font-size: 10pt;
+  color: #000000;
+}
+.nombre-de-ejemplo5 {
+  padding-top: 13px;
+  font-family: "Merriweather", serif;
+  font-size: 13pt;
+  color: #000000;
+}
+.nombre-de-ejemplo6 {
+  padding-top: 20px;
+  font-family: "Nixie One", cursive;
+  font-size: 12pt;
+  color: #000000;
+}
+.nombre-de-ejemplo7 {
+  padding-top: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 6pt;
+  color: #000000;
+}
+.nombre-de-ejemplo8 {
+  padding-top: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 8pt;
+  color: #000000;
+}
+.nombre-de-ejemplo9 {
+  padding-top: 10px;
+  font-family: "Nixie One", cursive;
+  font-size: 30pt;
+  color: #000000;
+}
+.nombre-de-ejemplo10 {
+  padding-top: 5px;
+  font-family: "Merriweather", serif;
+  font-size: 8pt;
+  color: #000000;
+}
+.nombre-de-ejemplo11 {
+  padding-top: 10px;
+  font-family: "Merriweather", serif;
+  font-size: 8pt;
+  color: #000000;
+  flex-grow: 4;
+}
+.nombre-de-ejemplo11 {
+  padding-top: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 9pt;
+  color: #000000;
+  text-align: center;
+}
+.nombre-de-ejemplo12 {
+  padding-top: 15px;
+  font-family: "Nixie One", cursive;
+  font-size: 15pt;
+  color: #000000;

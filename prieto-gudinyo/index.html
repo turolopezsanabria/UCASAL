@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <title>Curso de diseño 3D</title>
+  <meta name="description" content="Landing page para suscripción a curso 3D"
+    keyword="diseño, 3d, modelado, suscripcion, curso">
+  <meta name="Prieto Abril, Gudiño Pablo" content="SitePoint">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+  
+  <!-- 
+En general está bien, pero se rompe por algunos sitios porque no hay DIVs cerrados
+En codepen no se ve porque lo corrige solo
+
+Sobre todo miren donde se abre un elemento por ejemplo <div> y donde cierra </div>
+-->
+  
+<body>
+  <div class="banner"
+    style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(https://scontent.fsla1-1.fna.fbcdn.net/v/t1.6435-9/193493079_539176813752917_2551346340479245773_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeGu6i7XizvU-Cx1crhgUynzdKCEemfSDOt0oIR6Z9IM6wRNxW5gbdcLpz0PJ_yW0GCVUb9sbpdaclM9i8qblno-&_nc_ohc=FmLl8yIYOxsAX_v8hKO&_nc_ht=scontent.fsla1-1.fna&oh=a0908873c4810c998354e2fcb77e0675&oe=60DF4A9A);">
+    <div class="container"><!-- este div no está cerrado -->
+
+      <header>
+        <div class="Encabezado"><!-- este div no está cerrado -->
+          <h1>Aprendé modelado 3D</h1>
+          <div class="Subtitulo"><!-- aquí no necesitan un div, pueden estilar directamente el h2  -->
+            <h2>con Blender.</h2>
+          </div>
+          <!-- los headings "h" solo pueden ir hasta el nivel 6 (no 13)  -->
+          <!-- sugiero usar h1 h2 h3 como mucho, el resto que sean Div  -->
+          <div class="Subtitulo"><!-- este div no está cerrado -->
+            <h4>¡Tomá nuestro curso ahora!</h4>
+            <div class="paquete-normal">
+              
+              <h6>Normal</h6>
+              <h8>$15 usd</h8>
+              <h10>15 clases</h10>
+              <h12>Certificado Blender Junior</h12>
+            </div>
+            <div class="paquete-intensivo">
+              <h7>Intensivo</h7>
+              <h9>$25 usd</h9>
+              <h11>30 clases</h11>
+              <h13>Certificado Blender Master</h13>
+            </div>
+
+
+      </header>
+      
+      <div class="suscribirse-box"><!-- este div no está cerrado -->
+        <form><!-- no sé cuál es la función de este Form, además no cierra en ningun lado -->
+          <div class="banner"><!-- esta caja "banner" está vacía -->
+          </div>
+          <a href="https://www.blender.org//">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Suscribite
+          </a>
+          <div class="Suscribite-box">
+            <form><!-- no sé cuál es la función de este Form -->
+              <div class="banner"><!-- esta caja "banner" está vacía -->
+              </div>
+              <a href="https://www.blender.org//">
+                <span></span> 
+                <span></span><!-- estos spans no hacen nada-->
+                <span></span>
+                <span></span>
+                Suscribite
+              </a>
+
+
+            </form>
+
+          </div>
+</body>
