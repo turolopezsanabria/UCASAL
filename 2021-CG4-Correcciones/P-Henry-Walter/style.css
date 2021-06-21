@@ -1,0 +1,148 @@
+body{
+    font-family: Montserrat, sans-serif;
+    background: url("https://images.pexels.com/photos/3052360/pexels-photo-3052360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    )
+  }
+  h3{color:white}
+  ul{color:white}
+  div class{color:white}
+  <div style="color: White;">
+  * {
+    box-sizing: border-box;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  @font-face {
+    font-family: HK Grotesk;
+    src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+      format("opentype");
+  }
+  @font-face {
+    font-family: Roboto;
+    font-weight: bold;
+  color:#000
+    src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+      format("opentype");
+  }
+  
+  .btn--remix {
+    font-family: ;
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    height: 2.75rem;
+    align-items: center;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    white-space: nowrap;
+    margin-left: auto;
+  }
+  .btn--remix img {
+    margin-right: 0.5rem;
+  }
+  .btn--remix:hover {
+    background-color: #D0FFF1;
+  }
+  
+  
+  body {
+    font-family: IBM Plex Sans, sans-serif;
+    background-color: var(--color-bg);
+  }
+  
+  .wrapper {
+    min-height: var(--wrapper-height);
+    display: grid;
+    place-items: center;
+    margin: 0 1rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+  }
+  
+  .title {
+    color: #ffffff;
+    familia de fuentes: 'Monoton', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 105%;
+    margin: 0;
+    aling-items: center;
+  }
+  .row { font-family:Roboto;
+    Color: #FFF;
+    position: relative;
+    top: -600px;
+  left:550px;}
+  
+  </style>
+  .rotated {
+    transform: rotate(360deg);
+  }
+  
+  *{
+  margin:0px;
+  padding:0px;
+  }
+  
+  #barra-superior {
+              margin:auto;
+              width:100%;
+              background:#4998DE;
+              height:40px; 
+              border-bottom: 5px solid #8053FA; 
+              position:fixed; 
+              z-index:101; 
+              }
+  
+              ul, ol {
+              list-style:none;
+              }
+  
+              .menu > li {
+              float:right;
+              }
+  
+              .menu{
+              margin:0 auto;
+              width:1200px; /*Ancho del menú dentro de la barra, variaremos este valor hasta conseguir el que buscamos*/
+              }
+  
+              .menu li a {
+              color:#ffffff; 
+              font:normal normal 15px Roboto; 
+              text-transform:uppercase; 
+              letter-spacing: 3px; 
+              text-decoration:none;
+              padding:15px 5px;
+              display:block;
+              cursor:pointer;
+              }
+  
+              .menu li a:hover {
+              color: #FAF667; 
+              }
+  
+  
+  .chiste img {
+    width: 700px;
+    margin: 50px,50px,50px,50px;
+  }
+  
+  h2 { aling: center; 
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: #5d5d5d;}
+  

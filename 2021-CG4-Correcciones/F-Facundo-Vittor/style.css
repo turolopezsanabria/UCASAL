@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+  outline: red solid 0px;
+  }
+  body {
+    font-family: EB Garamond;
+    letter-spacing: 1px;
+  }
+  nav {
+    background-color: black;
+    position: absolute;
+    
+  }
+nav.menu{
+  background:black;
+  position:absolute;
+  height: 50px;
+  width: 100%;
+  
+
+
+}
+  ul {
+    list-style-type: none;
+    padding-left: 100px;
+    margin-top: 15px;
+    
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    font-family: Roboto;
+    font-size: 15px;
+    color: white  ;
+    text-decoration: none;
+    
+  }
+
+  .grid-navbar{
+    display: grid;
+    text-align: left;
+    padding-left: 100x;
+    
+  }
+
+  /*Landing*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 700px;
+    padding-top: 80px;
+    padding-left: 100px
+}
+
+.pre{
+color: white;  
+  
+}
+
+.title-landing{
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: white;
+  
+}
+.mt-description{
+    text-align: left
+}
+.description-landing{
+    font-size: 19px;
+    font-family: Roboto
+}
+/* BUTTON VER COMPONENTS */
+.button-landing {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    height: 45px;
+    text-align: left;
+    font-size: 16px;
+  padding-left: 0px;
+    /* BORDER RADIUS */
+  background: black;
+  cursor:pointer;
+  }
+
+  
+.logo1{
+  width: 100px;
+  padding-left: 100px;
+  padding-top: 250px;
+}
+.logo2{
+  width: 200px;
+  padding-left: 10px;
+  padding-top: 0px;
+}
